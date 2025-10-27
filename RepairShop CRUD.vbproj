@@ -88,6 +88,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customers.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +146,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RepairServicesDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="RepairTypes.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
