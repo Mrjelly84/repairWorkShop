@@ -25,4 +25,16 @@ Public Class Customers
 
         End Get
     End Property
+
+    Public Function PhoneNumberDuplicate(id As Short, phone As String) As Boolean
+        Dim existingCustomer As DataRow = adapter.FindPhoneNumber(phone).FirstOrDefault()
+        If existingCustomer Is Nothing Then
+            Return False
+
+        End If
+        Return id <> existingCustomer(0)
+
+    End Function
+
+
 End Class
