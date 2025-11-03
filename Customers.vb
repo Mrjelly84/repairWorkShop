@@ -36,5 +36,10 @@ Public Class Customers
 
     End Function
 
+    Public Function FindById(custId As Short) As RepairServicesDataSet.CustomersRow
+        Dim table As DataTable = adapter.FindById(custId)
+        Return CType(table.Rows(0), RepairServicesDataSet.CustomersRow)
+
+    End Function
 
 End Class
