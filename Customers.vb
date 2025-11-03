@@ -42,4 +42,15 @@ Public Class Customers
 
     End Function
 
+    Public Function Insert(custId As Short, name As String, phone As String) As Boolean
+        Try
+            adapter.Insert(custId, name, phone)
+            Return True
+        Catch ex As Exception
+            LastError = "Failed To Insert New Customer. Reason: " & ex.Message
+            Return False
+        End Try
+
+    End Function
+
 End Class
