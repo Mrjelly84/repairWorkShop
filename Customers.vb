@@ -53,4 +53,28 @@ Public Class Customers
 
     End Function
 
+    Public Function Update(custId As Short, name As String, phone As String) As Boolean
+        Try
+            origCustomerRow = adapter.GetData().FindByCustId(custId)
+            adapter.Update(custId, name, phone, origCustomerRow.CustId, origCustomerRow.Name, origCustomerRow.Phone)
+            Return True
+        Catch ex As Exception
+            LastError = "Failed to insert new Customer, Reason: " & ex.Message
+            Return False
+        End Try
+
+
+    End Function
+
+    Public Function Delete(custId As Short) As Boolean
+        Dim rowsAffected As Integer = 0
+        If MessageBox.Show("Delete Customer?", "Delete Customer?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning
+                            ) = DialogResult.Yes Then
+            origCustomerRow = adapter.GetData().FindByCustId(custId)
+            rowsAffected = adapter.Delete(origCustomerRow.CustId, origCustomerRow.Name, origCustomerRow.Phone)
+        End If
+        Return rowsAffected > 0
+    End Function
+
+
 End Class
