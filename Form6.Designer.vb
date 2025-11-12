@@ -25,11 +25,12 @@ Partial Class Form6
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AppointmentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CustomerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CustomerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -44,6 +45,7 @@ Partial Class Form6
         '
         'FileToolStripMenuItem
         '
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
@@ -54,13 +56,6 @@ Partial Class Form6
         Me.AppointmentsToolStripMenuItem.Name = "AppointmentsToolStripMenuItem"
         Me.AppointmentsToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
         Me.AppointmentsToolStripMenuItem.Text = "Appointments"
-        '
-        'CustomerToolStripMenuItem
-        '
-        Me.CustomerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem1, Me.ViewToolStripMenuItem1})
-        Me.CustomerToolStripMenuItem.Name = "CustomerToolStripMenuItem"
-        Me.CustomerToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
-        Me.CustomerToolStripMenuItem.Text = "Customer"
         '
         'NewToolStripMenuItem
         '
@@ -74,6 +69,13 @@ Partial Class Form6
         Me.ViewToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ViewToolStripMenuItem.Text = "View"
         '
+        'CustomerToolStripMenuItem
+        '
+        Me.CustomerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem1, Me.ViewToolStripMenuItem1})
+        Me.CustomerToolStripMenuItem.Name = "CustomerToolStripMenuItem"
+        Me.CustomerToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
+        Me.CustomerToolStripMenuItem.Text = "Customer"
+        '
         'NewToolStripMenuItem1
         '
         Me.NewToolStripMenuItem1.Name = "NewToolStripMenuItem1"
@@ -85,6 +87,12 @@ Partial Class Form6
         Me.ViewToolStripMenuItem1.Name = "ViewToolStripMenuItem1"
         Me.ViewToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.ViewToolStripMenuItem1.Text = "view"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'Form6
         '
@@ -110,4 +118,5 @@ Partial Class Form6
     Friend WithEvents CustomerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NewToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ViewToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
 End Class
