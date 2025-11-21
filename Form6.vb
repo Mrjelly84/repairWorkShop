@@ -15,14 +15,14 @@
     End Sub
 
     Private Sub NewToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem1.Click
-        Dim frm As New Form1
+        Dim frm As New frmCustomer
         If frm.ShowDialog() = DialogResult.OK Then
-            Form1.ShowDialog()
+            frmCustomer.ShowDialog()
         End If
     End Sub
 
     Private Sub ViewToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ViewToolStripMenuItem1.Click
-        Form1.ShowDialog()
+        frmCustomer.ShowDialog()
 
     End Sub
 End Class
