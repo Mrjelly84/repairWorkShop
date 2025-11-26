@@ -14,6 +14,22 @@
             Return
         End If
 
-        Dim frm As New
+        Dim frm As New frmModify
+        frmModify.CustomerId = CShort(dgvCustomers.SelectedRows(0).Cells(0).Value)
+        If frm.ShowDialog() = DialogResult.OK Then
+            CustomersTableAdapter.Fill(RepairServicesDataSet.Customers)
+        End If
+    End Sub
+
+    Private Sub DeleteCustomerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteCustomerToolStripMenuItem.Click
+        If dgvCustomers.SelectedRows.Count > 0 Then
+            Dim CustId = CShort(dgvCustomers.SelectedRows(0).Cells(0).Value)
+            If cust.Delete(CustId) Then
+                dgvCustomers.DataSource = cust.Items
+                MessageBox.Show("Customer Deleted")
+            Else
+                MessageBox.Show("Customer Not Deleted")
+            End If
+        End If
     End Sub
 End Class

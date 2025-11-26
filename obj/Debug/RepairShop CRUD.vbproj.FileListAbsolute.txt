@@ -1,0 +1,20 @@
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop CRUD.vbproj.AssemblyReference.cache
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop_CRUD.frmCustomer.resources
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop_CRUD.Form2.resources
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop_CRUD.frmModify.resources
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop_CRUD.Form4.resources
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop_CRUD.Form5.resources
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop_CRUD.Form6.resources
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop_CRUD.Resources.resources
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop CRUD.vbproj.GenerateResource.cache
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop CRUD.vbproj.CoreCompileInputs.cache
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\bin\Debug\RepairServices.mdf
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\bin\Debug\RepairServices_log.ldf
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\bin\Debug\RepairShop CRUD.exe.config
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\bin\Debug\RepairShop CRUD.exe
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\bin\Debug\RepairShop CRUD.pdb
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\bin\Debug\RepairShop CRUD.xml
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop CRUD.exe
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop CRUD.xml
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop CRUD.pdb
+C:\Users\williamd\OneDrive - Affordable Window Systems\Documents\vb dot net\intermediate\RepairShop CRUD\obj\Debug\RepairShop CRUD.exe.config
